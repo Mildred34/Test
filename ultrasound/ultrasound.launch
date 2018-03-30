@@ -1,0 +1,7 @@
+<launch>
+	<node name="ultrasound" pkg="my_sensor_package" type="ultrasound.py" output="screen">
+	<param name="GPIO_PIN" type="int" value="7"/>
+	<param name="PUBLISH_RATE" type="int" value="10"/>
+	value="my_custom_topic_name" />
+  	</node>
+	</launch>
